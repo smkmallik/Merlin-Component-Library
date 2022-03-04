@@ -1,0 +1,25 @@
+.component-title-text {
+    font-size: 2.2rem;
+}
+
+.component-paragraph-text {
+    padding-top: 1rem;
+}
+
+.component-subtitle-text {
+    font-size: 2rem;
+}
+
+.component-examples-container {
+    border: 2px solid #222;
+    background-color: #f1f7fa;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.component-code-examples-container {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,28 @@
+.alert {
+    border-radius: 4px;
+    padding: 1rem;
+    background-color: white;
+    margin: 1rem;
+}
+
+.primary-alert {
+    background-color: lightskyblue;
+    color: #222;
+}
+
+.info-alert {
+    background-color: grey;
+    color: #222;
+}
+
+.success-alert {
+    background-color: #84F1C9;
+}
+
+.error-alert {
+    background-color: #FCC5C5;
+}
+
+.warning-alert {
+    background-color: #FFE7C5;
+}
