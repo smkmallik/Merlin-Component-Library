@@ -1,0 +1,18 @@
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
+}
+
+.navigaton-right-links-container {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navigation-links {
+    list-style: none;
+}
+
