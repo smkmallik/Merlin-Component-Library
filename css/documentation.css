@@ -2,3 +2,9 @@
     padding: 2rem;
     flex-grow: 1;
 }
+
+/* @media screen and (max-width: 700px) {
+    .documentation-container {
+        padding-right: 2rem;
+    }
+} */
