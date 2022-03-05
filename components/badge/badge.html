@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="../../css/navigation.css">
     <link rel="stylesheet" href="../../css/footer.css">
     <link rel="stylesheet" href="../../css/layout.css">
-    <link rel="stylesheet" href="./avatar.css">
+    <link rel="stylesheet" href="./badge.css">
+    <link rel="stylesheet" href="../avatar/avatar.css">
     <link rel="stylesheet" href="../../css/sidebar.css">
     <link rel="stylesheet" href="../../css/documentation.css">
     <link rel="stylesheet" href="../../css/main.css">
@@ -19,7 +20,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 
-    <title>Avatar</title>
+    <title>Badge</title>
 </head>
 <body>
     <!-- Navigation header starts here-->
@@ -42,8 +43,8 @@
                 <hr />
                 <ul class="lists-container">
                     <li class="component-lists"><a href="../alert/alert.html">Alert</a></li>
-                    <li class="component-lists"><a href="./avatar.html">Avatar</a></li>
-                    <li class="component-lists"><a href="../badge/badge.html">Badge</a></li>
+                    <li class="component-lists"><a href="../avatar/avatar.html">Avatar</a></li>
+                    <li class="component-lists"><a href="./badge.html">Badge</a></li>
                     <li class="component-lists"><a href="">Button</a></li>
                     <li class="component-lists"><a href="">Card</a></li>
                     <li class="component-lists"><a href="">Grid</a></li>
@@ -60,23 +61,32 @@
         </section>
         <section class="documentation-container">
             <header class="component-title-text">
-                Avatar
+                Badge
             </header>
             <hr />
             <p class="component-paragraph-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <header class="component-subtitle-text">
-                Examples of Avatar
+                Examples of Badge
             </header>
             <p class="component-subparagraph-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. In quas officia dolorem harum quo sit nostrum facilis voluptas debitis qui omnis quia quae officiis aliquid sed tempora, provident distinctio non?
             </p>
 
             <div class="component-examples-container avatar-examples-container">
+                <div>
                 <img class="avatar avatar-large" src="../../assets/avatar.jpeg" alt="avatar">
-                <img class="avatar avatar-medium" src="../../assets/avatar.jpeg" alt="avatar">
-                <img class="avatar avatar-small" src="../../assets/avatar.jpeg" alt="avatar">
+                <div class="badge-status status-available"></div>
+                </div>
+                <div>
+                <img class="avatar avatar-medium " src="../../assets/avatar.jpeg" alt="avatar">
+                <div class="badge-status status-busy"></div>
+                </div>
+                <div>
+                <img class="avatar avatar-small status-away" src="../../assets/avatar.jpeg" alt="avatar">
+                <div class="badge-status status-away"></div>
+                </div>
             </div>
 
             <div class="component-code-examples-container">

@@ -1,0 +1,25 @@
+.badge-status {
+    position: relative;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    bottom: 2.4rem;
+    border: 2px solid white;
+}
+
+.status-available {
+    left: 9.4rem;
+    bottom: 2.4rem;
+    background-color: green;
+}
+
+.status-busy {
+    background-color: red;
+    left: 8.4rem;
+    bottom: 2.4rem;
+}
+
+.status-away {
+    left: 6.8rem;
+    background-color: yellow;
+}
