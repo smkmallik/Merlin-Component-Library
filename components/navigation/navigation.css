@@ -1,0 +1,27 @@
+.nav-container {
+    margin: 2rem;
+    background: grey;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-left: 1rem;
+}
+
+.nav-title {
+    color: #f7f7f7;
+}
+
+.nav-options {
+    list-style: none;
+    display: flex;;
+}
+
+.nav-links {
+    margin: 1rem;
+    color: #222;
+}
+
+.links {
+    text-decoration: none;
+}
