@@ -1,0 +1,41 @@
+.modal-examples-container {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center;
+}
+
+.modal-container {
+    margin: 2rem;
+    border: 1px solid #222;
+    width: fit-content;
+    padding: 1rem;
+    background-color: whitesmoke;
+    border-radius: 4px;
+}
+
+.modal-title {
+    font-weight: 700;
+}
+
+.modal-subscribe-button {
+    padding: 0.6rem;
+    border-radius: 4px;
+}
+
+.modal-content {
+    display: flex;
+    justify-content: start;
+    gap: 2rem;
+}
+
+.modal-email-input {
+    width: 18rem;
+    border-radius: 4px;
+    border: 1px solid #222;
+}
+
+.modal-title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
