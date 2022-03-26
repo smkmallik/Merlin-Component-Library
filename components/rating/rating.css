@@ -1,0 +1,8 @@
+.rated {
+    color: peru
+}
+  
+.ratings > span {
+    cursor: pointer;
+}
+  

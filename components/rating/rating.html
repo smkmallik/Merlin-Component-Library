@@ -7,19 +7,20 @@
     <link rel="stylesheet" href="../../css/navigation.css">
     <link rel="stylesheet" href="../../css/footer.css">
     <link rel="stylesheet" href="../../css/layout.css">
-    <link rel="stylesheet" href="./navigation.css">
+    <link rel="stylesheet" href="./rating.css">
     <link rel="stylesheet" href="../../css/navigation.css">
     <link rel="stylesheet" href="../../css/sidebar.css">
     <link rel="stylesheet" href="../../css/documentation.css">
     <link rel="stylesheet" href="../../css/main.css">
     <link rel="stylesheet" href="../../css/lists.css">
     <link rel="stylesheet" href="../../css/components.css">
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     
-    <title>Navigation</title>
+    <title>Rating</title>
 </head>
 <body>
     <!-- Navigation header starts here-->
@@ -51,7 +52,7 @@
                     <li class="component-lists"><a class="navigation-links" href="../list/list.html">List</a></li>
                     <li class="component-lists"><a class="navigation-links" href="../modal/modal.html">Modal</a></li>
                     <li class="component-lists"><a class="navigation-links" href="../navigation/navigation.html">Navigation</a></li>
-                    <li class="component-lists"><a class="navigation-links" href="../rating/rating.html">Rating</a></li>
+                    <li class="component-lists"><a class="navigation-links" href="./rating.html">Rating</a></li>
                     <li class="component-lists"><a class="navigation-links" href="../slider/slider.html">Slider</a></li>
                     <li class="component-lists"><a class="navigation-links" href="../toast/toast.html">Toast</a></li>
                     <li class="component-lists"><a class="navigation-links" href="../text-utilities/text-utilities.html">Text Utilities</a></li>
@@ -60,34 +61,33 @@
         </section>
         <section class="documentation-container">
             <header class="component-title-text">
-                Navigation
+                Rating
             </header>
             <hr />
             <p class="component-paragraph-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
+            <header class="component-subtitle-text">
+                Examples of Rating
+            </header>
+            <p class="component-subparagraph-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In quas officia dolorem harum quo sit nostrum facilis voluptas debitis qui omnis quia quae officiis aliquid sed tempora, provident distinctio non?
+            </p>
 
-            <div class="component-examples-container navigation-examples-container">
-                <nav class="nav-container">
-                    <header class="nav-title">Title here</header>
-                    <ul class="nav-options">
-                        <a class="links" href="#">
-                            <li class="nav-links">Home</li>
-                        </a>
-                        <a class="links" href="#">
-                            <li class="nav-links">About us</li>
-                        </a>
-                        <a class="links" href="#">
-                            <li class="nav-links">Contact</li>
-                        </a>
-                    </ul>
-                </nav>
+            <div class="component-examples-container">
+                <div class="ratings">
+                    <span class="material-icons rated">star_rate</span>
+                    <span class="material-icons rated">star_rate</span>
+                    <span class="material-icons rated">star_rate</span>
+                    <span class="material-icons">star_rate</span>
+                    <span class="material-icons">star_rate</span>
+                </div>
             </div>
 
             <div class="component-code-examples-container">
                 <iframe title=""
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522nav-container%2522%253E%250A%2509%253Cheader%2520class%253D%2522nav-title%2522%253ETitle%2520here%253C%252Fheader%253E%250A%2520%2520%2520%2520%2509%253Cul%2520class%253D%2522nav-options%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Ca%2520class%253D%2522links%2522%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cli%2520class%253D%2522nav-links%2522%253EHome%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522links%2522%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-links%2522%253EAbout%2520us%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522links%2522%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-links%2522%253EContact%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%253Cnav%253E"
-                    style="width: 600px; height: 505px; border:0; transform: scale(1); overflow:hidden; padding-top: 2rem;"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522ratings%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522material-icons%2520rated%2522%253Estar_rate%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522material-icons%2520rated%2522%253Estar_rate%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522material-icons%2520rated%2522%253Estar_rate%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Estar_rate%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Estar_rate%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A"
+                    style="width: 597px; height: 335px; border:0; transform: scale(1); overflow:hidden; padding-top: 2rem;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </div>
