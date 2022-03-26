@@ -1,0 +1,23 @@
+.toast-examples-container {
+    display: flex;
+    flex-direction: row !important;
+}
+
+.toast {
+    margin: 2rem;
+    width: 14rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 4px;
+    color: #222;
+}
+
+.successful-toast {
+    background-color: lightgreen;
+    color: rgba(19, 82, 19, 0.605);
+}
+
+.error-toast {
+    background-color: orange;
+    color: rgb(165, 119, 0);
+}
