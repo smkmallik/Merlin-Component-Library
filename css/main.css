@@ -43,3 +43,8 @@ body {
         padding-right: 1rem;
     }
 }
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+}
