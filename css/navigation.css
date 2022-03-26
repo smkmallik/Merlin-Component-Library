@@ -9,6 +9,11 @@
     padding-top: 1rem;
 }
 
+.navigation-links {
+    text-decoration: none;
+    color: #222;
+}
+
 @media screen and (max-width: 500px) {
     .navigation-container {
         flex-direction: column;
